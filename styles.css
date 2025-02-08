@@ -110,6 +110,7 @@
 
 
 
+
 /* Login Button Styling */
 .login-container {
     position: fixed;
@@ -456,5 +457,25 @@ input:checked + .slider::before {
 }
 
 .new-chat-btn:hover {
+    background: #0056b3;
+}
+
+
+
+.styled-btn {
+    background: #007bff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.styled-btn:hover {
     background: #0056b3;
 }
